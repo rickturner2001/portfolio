@@ -7,15 +7,16 @@ export type Project = {
 
 const projects: Project[] = [
   {
+    title: "FlowTalk",
+    techs: ["Next.js", "Prisma", "Stripe"],
+    link: "https://flow-talk.vercel.app/",
+  },
+  {
     title: "Paper-search",
     techs: ["Next.js", "Trpc", "Prisma"],
     link: "https://github.com/rickturner2001/paper-search",
   },
-  {
-    title: "SystemLoadMonitor",
-    techs: ["Python", "FastAPI", "Vite"],
-    link: "https://github.com/rickturner2001/SystemLoadMonitor",
-  },
+
   {
     title: "netracer.js",
     techs: ["Next", "Prisma", "Trpc", "Sockets"],
